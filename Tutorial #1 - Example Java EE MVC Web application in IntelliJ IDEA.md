@@ -5,16 +5,16 @@
 ## 1. Tạo Java Java Enterprise project trong IntelliJ
 
 - Chọn `New Project` khi mở IntelliJ
-![new-project](img/tut-1/00_welcome-popup.png) 
+<br>![new-project](img/tut-1/00_welcome-popup.png) 
 
 - `New Project` dialog hiện ra, chọn `Java Enterprise`. Trong bài viết này, chúng ta sẽ để mặc định **Build Tool** là `Maven` và **Test Runner** là `JUnit`. Click `Next` để tiếp tục.
-![project_type](img/tut-1/01_project_type.png)
+<br>![project_type](img/tut-1/01_project_type.png)
 
 - Add `Servlet` library trong mục `Specifications`, tiếp tục click `Next`.
-![title](img/tut-1/02_add_library.png)
+<br>![title](img/tut-1/02_add_library.png)
 
 - Đặt tên projcet, nơi lưu, và chọn `Finish`
-![title](img/tut-1/03_set_project_name.png)
+<br>![title](img/tut-1/03_set_project_name.png)
 
 ## 2. Viết code theo mô hình MVC
 
@@ -47,49 +47,49 @@ project
 ## 3. Cấu hình GlassFish Sever để run project trên localhost
 
 - Trên thanh menu chọn **`File`** -> **`Setting...`** (hoặc nhấn tổ hợp `Ctrl + Alt + S`), chọn tab **`Build, Execution, Deployment`** -> **`Application Servers`**
-![ctrl-alt-s](img/tut-1/05_go_to_setting.png)
+<br>![ctrl-alt-s](img/tut-1/05_go_to_setting.png)
 
 - Nhấn vào biểu tượng dấu **`+`**, chọn **`Glassfish Server`**
-![ctrl-alt-s](img/tut-1/06_add_glassfish.png)
+<br>![ctrl-alt-s](img/tut-1/06_add_glassfish.png)
 
 - Chọn đường dẫn đến nơi chứa GlassFish, có thể tải GlassFish 4.1.1 [tại đây][glass-fish-oracle] hoặc [tại đây][glass-fish-reup]
-![glassfish_dir](img/tut-1/07-glassfish_dir.png)
+<br>![glassfish_dir](img/tut-1/07-glassfish_dir.png)
 
 - Cuối cùng chọn **`OK`**
-![glassfish_ok](img/tut-1/08-glassfish_ok.png)
+<br>![glassfish_ok](img/tut-1/08-glassfish_ok.png)
 
 - Edit file `asenv.conf` trong thư mục `glassfish/config`
   - Trên thanh menu chọn **`File`** -> **`Project Structure...`** (hoặc nhấn tổ hợp `Ctrl + Alt + Shift + S`)
-  ![project_structure](img/tut-1/09_project_structure.png)
+  <br>![project_structure](img/tut-1/09_project_structure.png)
   
   - **Project Structure** dialog hiện ra, chọn tab **`Platform Settings`** -> **`SDKs`**
-  ![project_structure](img/tut-1/10_project_structure_sdks.png)
+  <br>![project_structure](img/tut-1/10_project_structure_sdks.png)
 
   - Copy `JDK home path` và thêm `AS_JAVA=<JDK home path>` vào cuối file `asenv.conf` như hình dưới đây
-  ![edit_assenv.conf](img/tut-1/11_edit_assenv.conf.png)
+  <br>![edit_assenv.conf](img/tut-1/11_edit_assenv.conf.png)
 
 ## 4. Tạo GlassFish run configuration
 
 
 - Vào menu **`Run`** -> **`Edit Configurations...`** 
-![edit_assenv.conf](img/tut-1/12.png)
+<br>![edit_assenv.conf](img/tut-1/12.png)
 
 - Nhấn vào biểu tượng dấu **`+`**, chọn **`Glassfish Server Local`**
-![edit_assenv.conf](img/tut-1/13.png)
+<br>![edit_assenv.conf](img/tut-1/13.png)
 
 - Tại phần **Glassfish Server Setting** trong tab **`Server`**, đặt giái trị cho **`Server domain`** là `domain1`
-![edit_assenv.conf](img/tut-1/14.png)
+<br>![edit_assenv.conf](img/tut-1/14.png)
 
 - Trong tab **`Deployment`**, add the `artifact` mà bạn muốn deploy
-![edit_assenv.conf](img/tut-1/15.png)
-![edit_assenv.conf](img/tut-1/16.png)
+<br>![edit_assenv.conf](img/tut-1/15.png)
+<br>![edit_assenv.conf](img/tut-1/16.png)
 
 - Mở lại tab **`Server`**, ta thấy `URL` đã được set giá trị là `http://localhost:8080/<project-name>-<version>/`
-![edit_assenv.conf](img/tut-1/17.png)
+<br>![edit_assenv.conf](img/tut-1/17.png)
 
 - Click OK.
 - Để run configuration, nhấn tổ hợp phím `Alt + Shift + F10` hoặc click vào nút play màu xanh lá góc trên bên trái màn hình
-![edit_assenv.conf](img/tut-1/18.png)
+<br>![edit_assenv.conf](img/tut-1/18.png)
 
 [glass-fish-oracle]: https://github.com/quockhanhtn/quockhanhtn/blob/master/img/vietnam_flag.png
 [glass-fish-reup]: https://drive.google.com/file/d/1Hj21_zSOEDWbxMiRoZxaLSgqbzLlgipn/view?usp=sharing
