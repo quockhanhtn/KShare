@@ -87,13 +87,16 @@ project
 - Mở lại tab **`Server`**, ta thấy `URL` đã được set giá trị là `http://localhost:8080/<project-name>-<version>/`
 <br>![edit_assenv.conf](img/tut-1/17.png)
 
-- Click OK.
-- Để run configuration, nhấn tổ hợp phím `Alt + Shift + F10` hoặc click vào nút play màu xanh lá góc trên bên trái màn hình
+- Click **OK**. Để run configuration, nhấn tổ hợp phím `Alt + Shift + F10` hoặc click vào nút play màu xanh lá góc trên bên trái màn hình
 <br>![edit_assenv.conf](img/tut-1/18.png)
+
+
+### Khi build project thành công, IDE sẽ mờ trình duyệt, truy cập vào trang web của chúng ta ở localhost
+<br>![edit_assenv.conf](img/tut-1/19.png)
+
+## Thank you for reading <3
+
+
 
 [glass-fish-oracle]: https://github.com/quockhanhtn/quockhanhtn/blob/master/img/vietnam_flag.png
 [glass-fish-reup]: https://drive.google.com/file/d/1Hj21_zSOEDWbxMiRoZxaLSgqbzLlgipn/view?usp=sharing
-
-
-
-## Thank you for reading
