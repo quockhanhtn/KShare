@@ -44,7 +44,7 @@ project
   - Phần `Controller` gồm các class đặt trong package `com.example.controller`
 
 
-## 3. Cấu hình GlassFish Sever để run project trên localhost
+## 3. Cấu hình GlassFish Server để run project trên localhost
 
 - Trên thanh menu chọn **`File`** -> **`Setting...`** (hoặc nhấn tổ hợp `Ctrl + Alt + S`), chọn tab **`Build, Execution, Deployment`** -> **`Application Servers`**
 <br>![ctrl-alt-s](img/tut-1/05_go_to_setting.png)
