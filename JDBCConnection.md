@@ -1,7 +1,7 @@
 # Báo cáo bài tập kết nối Database dùng thư viện JDBC
 
-Project: (download here)[https://raw.githubusercontent.com/quockhanhtn/KShare/master/jdbcConnect18110304.zip]
-Video demo : (Youtube)[https://youtu.be/cPW7Sm7l2V4]
+- Project: [download here)](https://raw.githubusercontent.com/quockhanhtn/KShare/master/jdbcConnect18110304.zip)
+- Video demo : [Youtube](https://youtu.be/cPW7Sm7l2V4)
 
 ### Tạo database mẫu và insert dữ liệu để test
 
